@@ -1,0 +1,17 @@
+[project]
+name = "codebase-llm-copilot"
+version = "0.1.0"
+description = "AI agent for codebase architectural Q&A with RAG and structured reasoning."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Codebase LLM Copilot"}]
+
+[project.scripts]
+codebase-llm-copilot = "app.main:run"
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+profile = "black"

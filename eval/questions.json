@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What are the main ingestion steps and where are they implemented?",
+    "expected_keywords": ["ingest", "clone", "parse"]
+  },
+  {
+    "question": "How does the retrieval pipeline combine semantic search with graph expansion?",
+    "expected_keywords": ["vector", "graph", "neighbor"]
+  },
+  {
+    "question": "Which components handle observability and trace storage?",
+    "expected_keywords": ["trace", "observability"]
+  }
+]
